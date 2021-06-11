@@ -1,0 +1,23 @@
+me": "roleexample",
+
+   "default_attributes": {
+
+   },
+
+   "json_class": "Chef::Role",
+
+   "run_list": ["recipe[cookbook_name::recipe_name]",
+
+                 "role[role_name]"
+
+   ],
+
+   "description": "",
+
+   "chef_type": "role",
+
+   "override_attributes": {
+
+   }
+
+}
